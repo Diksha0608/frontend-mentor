@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        clear: both;
+        padding: 6px 90px;
+        color: hsl(0, 0%, 100%) ;
+      }
+      .attribution a {
+        color: hsl(0, 0%, 100%) ;
+        font-size: large;
+
+      }
+      .container {
+        
+        padding: 170px 127px;
+        background-color: hsl(233, 47%, 7%);
+      }
+      .images {
+        float: right;
+         box-sizing:  border-box;
+        border-right: 10px;
+        overflow: auto;
+        opacity: 0.5;
+        
+      }
+      img{
+        
+        opacity: 0.5px ; 
+      }
+      
+      
+      .text-area {
+        float: left;
+        width: 554px;
+        height: 450px;
+         box-sizing: border-box;  
+        padding: 100px 100px;
+        border-left: 10px;
+        overflow: auto;
+        background-color:hsl(244, 38%, 16%);
+        
+      }
+      .text-area h1 {
+        color:  hsl(0, 0%, 100%);
+        padding: 12px ;
+      }
+      span {
+        color: hsl(277, 64%, 61%);
+      }
+      .navbar ul {
+        list-style: none;
+      }
+      li {
+        float: left;
+        padding: 20px 10px;
+        color: hsla(0, 0%, 100%, 0.6) ;
+      }
+      #top {
+        color:hsl(0, 0%, 100%) ;
+      }
+      #middle {
+        color:  hsl(0, 0%, 100%);
+      }
+      #bottom {
+        color:  hsl(0, 0%, 100%);
+      }
+      p{
+        font-size: 25px;
+        color: hsla(0, 0%, 100%, 0.6) ;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-area">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <nav class="navbar">
+          <ul>
+            <li>
+              <strong id="top"> 10k</strong> <br />
+              COMPANIES
+            </li>
+            <li>
+              <strong id="middle">341</strong> <br />
+              TEMPLATES
+            </li>
+            <li>
+              <strong id="bottom">12m+</strong> <br />
+              QUERIES
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="images">
+        <img src="images/image-header-desktop.jpg" alt="" >
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">DIKSHA KUMARI</a>.
+      </div>
+    </div>
+  </body>
+</html>
